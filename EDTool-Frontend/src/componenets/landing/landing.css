@@ -1,0 +1,105 @@
+/* src/Home.css */
+/* background-color: #b0c4de;
+color: #333333; 
+background-color: #e67e22;
+border: 2px solid #e67e22; */
+
+/* src/Home.css */
+.home-container {
+    font-family: Arial, sans-serif;
+    color: #2F4F4F; /* Dark Slate Gray text color */
+    min-height: 100vh; /* Ensure it covers the full height of the viewport */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #b0c4de; /* White background for the navbar */
+    color: #333333;
+    padding: 0.5rem 1rem;
+    height: 60px;
+    width: 100%;
+    max-width: 1200px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navbar h1 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.login-button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #e67e22; /* Default background color for the button */
+    color: #fff;
+    transition: background-color 0.3s ease;
+    margin-top: 15px;
+}
+
+.login-button:hover {
+    background-color: green; /* Darker shade for hover effect */
+    border: 2px solid #e67e22;
+}
+
+.content {
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+    background-color: #ffffff; /* White background for the content area */
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.content h3 {
+    color: #2F4F4F;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #2F4F4F;
+    padding-bottom: 0.5rem;
+}
+
+.content h4 {
+    color: #2F4F4F;
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    border-bottom: 1px solid #2F4F4F;
+    padding-bottom: 0.5rem;
+}
+
+.content p {
+    color: #333333; /* Dark gray text color for content paragraphs */
+    line-height: 1.8;
+    margin-bottom: 1rem;
+    text-align: justify;
+}
+
+.content ul {
+    margin-left: 20px;
+    list-style-type: disc;
+}
+
+.content ul li {
+    margin-bottom: 0.5rem;
+}

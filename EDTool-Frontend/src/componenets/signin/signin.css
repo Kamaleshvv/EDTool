@@ -1,0 +1,135 @@
+/* SignInForm.css */
+
+.form-container.left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 50% !important;
+  margin-right: 10px;
+  margin-left: 30px;
+  text-align: center;
+}
+
+/* SignUpForm.css */
+.form-container.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 50% !important;
+  margin-left: 10px;
+  margin-right: 30px;
+  text-align: center;
+}
+
+/* SignInSignUpContainer.css */
+.signin-signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  width: 60vw;
+  margin: auto;
+  margin-top: 10%;
+  border-radius: 20px;
+  background-color: aliceblue;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+.overlay {
+  height: 60vh;
+  background-color: #e67e22;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.overlay-panel {
+  margin: 0;
+  font-size: large;
+}
+
+.left {
+  left: 0;
+}
+
+.right {
+  right: 0;
+}
+
+.button {
+  padding: 10px 20px;
+  border: none;
+  background-color:  #e67e22;
+  color: #f4edec;
+  cursor: pointer;
+  transition: background-color;
+  border-radius: 10px; /* Curvy border */
+}
+
+.button:hover {
+  border: 2px solid black;
+  transform: scale(1.05);
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #f4edec;
+  color: #e67e22;
+  cursor: pointer;
+  transition: background-color;
+  border-radius: 10px; /* Curvy border */
+  margin-bottom: 20px;
+}
+
+button:hover {
+  border: 2px solid black;
+  transform: scale(1.05);
+}
+
+input {
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: calc(100% - 22px);
+}
+
+input:focus {
+  border-color: #007BFF;
+  outline: none;
+}
+
+.SsoIcons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  gap: 5rem;
+}
+
+.google,
+.Github {
+  font-size: 24px;
+  color: #4285f4;
+  cursor: pointer;
+}
+
+.Github {
+  color: #333;
+}
+
+.error {
+  color: red;
+}
